@@ -1,6 +1,6 @@
 package pl.kurs.zad1;
 
-public class Osoba implements Comparable<Osoba> {
+public class Osoba implements Comparable<Osoba>{
     private final String name;
     private final int age;
 
@@ -19,7 +19,7 @@ public class Osoba implements Comparable<Osoba> {
 
     @Override
     public int compareTo(Osoba o) {
-        return Integer.compare(age, o.age);
+        return Integer.compare(age,o.age);
     }
 
     @Override

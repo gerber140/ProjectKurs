@@ -1,4 +1,4 @@
-package pl.kurs;
+package pl.kurs.zad1;
 
 import pl.kurs.zad1.MinMax;
 import pl.kurs.zad1.MinMaxService;

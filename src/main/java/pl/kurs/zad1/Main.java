@@ -17,13 +17,13 @@ public class Main {
                 new Osoba("Krzysztof",19)
         ));
         MinMax<Osoba> osobyMinAndMax = MinMaxService.getMinAndMax(osoby);
-        System.out.println("Max: " + osobyMinAndMax.getMax());
-        System.out.println("Min: " + osobyMinAndMax.getMin());
+        System.out.println("Osoby max: " + osobyMinAndMax.getMax());
+        System.out.println("Osoby min: " + osobyMinAndMax.getMin());
 
         List<Integer> liczby = new ArrayList<>(List.of(12,23,31,24,57,68,97));
         MinMax<Integer> liczbyMinAndMax = MinMaxService.getMinAndMax(liczby);
-        System.out.println("Max: " + liczbyMinAndMax.getMax());
-        System.out.println("Min: " + liczbyMinAndMax.getMin());
+        System.out.println("Liczby max: " + liczbyMinAndMax.getMax());
+        System.out.println("Liczby min: " + liczbyMinAndMax.getMin());
 
         List<Integer> liczby2 = new ArrayList<>();
         MinMax<Integer> liczby2MinAndMax = MinMaxService.getMinAndMax(liczby2);

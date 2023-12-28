@@ -1,9 +1,5 @@
 package pl.kurs.zad1;
 
-import pl.kurs.zad1.MinMax;
-import pl.kurs.zad1.MinMaxService;
-import pl.kurs.zad1.Osoba;
-
 import java.util.ArrayList;
 import java.util.List;
 

@@ -20,7 +20,7 @@ public class Main {
         System.out.println("Podaj PESEL:");
         String pesel = scanner.nextLine();
 
-        if(Pesel.isValid(pesel)){
+        if (Pesel.isValid(pesel)) {
             String s = Pesel.peselToDate(pesel);
             System.out.println(s);
         } else {

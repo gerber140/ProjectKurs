@@ -1,6 +1,6 @@
 package pl.kurs.zad4;
 
-public class NoWomanException extends RuntimeException{
+public class NoWomanException extends RuntimeException {
     public NoWomanException() {
     }
 

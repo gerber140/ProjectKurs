@@ -1,6 +1,6 @@
 package pl.kurs.zad2;
 
-public class InvalidPeselException extends RuntimeException{
+public class InvalidPeselException extends RuntimeException {
     public InvalidPeselException() {
     }
 

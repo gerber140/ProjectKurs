@@ -5,13 +5,6 @@ import java.util.stream.Collectors;
 
 public class PersonListService {
     public static Optional<Person> findOldestWoman(List<Person> persons) throws NoWomanException {
-//        Optional<Person> oldestWoman = persons.stream()
-//                .filter(person -> person.getName().endsWith("a"))
-//                .max(Comparator.comparingInt(Person::getAge));
-//        if (oldestWoman.isEmpty()) {
-//            throw new NoWomanException("No women on list");
-//        }
-//        return oldestWoman;
         return Optional.ofNullable(persons.stream()
                 .filter(person -> person.getName().endsWith("a"))
                 .max(Comparator.comparingInt(Person::getAge))
@@ -19,21 +12,12 @@ public class PersonListService {
     }
 
     public static Optional<Double> averageAge(List<Person> persons) {
-//        return persons.stream()
-//                .mapToInt(Person::getAge)
-//                .average()
-//                .orElse(0);
         return Optional.of(persons.stream()
                 .mapToInt(Person::getAge)
                 .average()
                 .orElse(0));
     }
     public static Optional<Double> averageMensAge(List<Person> persons) {
-//        return persons.stream()
-//                .filter(person -> !person.getName().endsWith("a"))
-//                .mapToInt(Person::getAge)
-//                .average()
-//                .orElse(0);
         return Optional.of(persons.stream()
                 .filter(person -> !person.getName().endsWith("a"))
                 .mapToInt(Person::getAge)

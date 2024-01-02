@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21e4df0d-fe2c-4043-b4e3-26660ee71164" name="Changes" comment="Commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/kurs/zad2/PeselValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/kurs/zad2/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/kurs/zad1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kurs/zad1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/kurs/zad1/Osoba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kurs/zad1/Osoba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/kurs/zad1/MinMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kurs/zad1/MinMax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/kurs/zad1/MinMaxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kurs/zad1/MinMaxService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/kurs/zad2/Pesel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kurs/zad2/Pesel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/kurs/zad3/FiveBiggestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kurs/zad3/FiveBiggestElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/kurs/zad3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kurs/zad3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/kurs/zad4/PersonListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kurs/zad4/PersonListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/kurs/zad4/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kurs/zad4/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +52,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.pl.kurs.zad4.Runner">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pl.kurs.zad1.Main" />
       <module name="ProjectKurs" />
@@ -58,9 +66,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.kurs.zad2.Runner" />
+      <module name="ProjectKurs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.kurs.zad2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pl.kurs.zad2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.kurs.zad2.Main" />
+      <module name="ProjectKurs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.kurs.zad2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pl.kurs.zad3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.kurs.zad3.Main" />
+      <module name="ProjectKurs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.kurs.zad3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pl.kurs.zad4.Runner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pl.kurs.zad4.Runner" />
+      <module name="ProjectKurs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.kurs.zad4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pl.kurs.zad4.Runner" />
+        <item itemvalue="Application.pl.kurs.zad3.Main" />
+        <item itemvalue="Application.pl.kurs.zad2.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Runner" />
       </list>
     </recent_temporary>
   </component>
@@ -97,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703798278462</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1703853851805</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703853851805</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -1,5 +1,8 @@
 package pl.kurs.zad2;
 
+import java.time.LocalDate;
+import java.util.Optional;
+
 public class Pesel {
     public static String peselToDate(String pesel) {
         int year = Integer.parseInt(pesel.substring(0, 2));
@@ -18,6 +21,13 @@ public class Pesel {
         String date = day + "." + month + "." + year;
         return date;
 
+    }
+
+    public static LocalDate birthDay(String pesel) {
+        return Optional.ofNullable(pesel)
+                .filter(x -> x.length() == 11)
+                .map(PeselValidator::dateOfBirth)
+                .orElseThrow();
     }
 
     public static boolean isValid(String pesel) {

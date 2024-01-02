@@ -9,7 +9,7 @@ public class Main {
                 new Osoba("Adam", 15),
                 new Osoba("Ewa", 18),
                 new Osoba("Kuba", 25),
-                new Osoba("Ania", 21),
+                new Osoba("Ania", 27),
                 new Osoba("Krzysztof", 19)
         ));
         MinMax<Osoba> osobyMinAndMax = MinMaxService.getMinAndMax(osoby);

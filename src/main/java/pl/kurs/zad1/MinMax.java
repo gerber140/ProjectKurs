@@ -1,8 +1,8 @@
 package pl.kurs.zad1;
 
-public class MinMax<T extends Comparable<T>> {
-    T max;
-    T min;
+public class MinMax<T extends Comparable> {
+    private T max;
+    private T min;
 
     public MinMax(T max, T min) {
         this.max = max;

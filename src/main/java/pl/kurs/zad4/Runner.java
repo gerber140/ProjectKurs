@@ -18,20 +18,23 @@ public class Runner {
         Optional<Person> oldestWoman = PersonListService.findOldestWoman(persons);
         System.out.println(oldestWoman.get().getName());
 
-        double averageAge = PersonListService.averageAge(persons);
+        Optional<Double> averageAge = PersonListService.averageAge(persons);
         System.out.println(averageAge);
 
-        double averageMensAge = PersonListService.averageMensAge(persons);
+        Optional<Double> averageMensAge = PersonListService.averageMensAge(persons);
         System.out.println(averageMensAge);
 
-        String cityWithMostPeople = PersonListService.cityWithMostPeople(persons);
+        Optional<Double> averageWomenAge = PersonListService.averageWomensAge(persons);
+        System.out.println(averageWomenAge);
+
+        Optional<String> cityWithMostPeople = PersonListService.cityWithMostPeople(persons);
         System.out.println(cityWithMostPeople);
+
 
         System.out.println();
 
-        List<String> citys = PersonListService.allCitys(persons);
-        for (String element : citys) {
-            System.out.println(element);
-        }
+        Optional<List<String>> citys = PersonListService.allCitys(persons);
+        citys.ifPresent(cityList -> cityList.forEach(System.out::println));
     }
 }
+

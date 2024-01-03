@@ -24,12 +24,19 @@ public class Runner {
         Optional<Double> averageMensAge = PersonListService.averageMensAge(persons);
         System.out.println(averageMensAge);
 
-        Optional<Double> averageWomenAge = PersonListService.averageWomensAge(persons);
-        System.out.println(averageWomenAge);
+        Optional<Double> averageWomensAge = PersonListService.averageWomensAge(persons);
+        System.out.println(averageWomensAge);
+
+        // Example usage for average age of men
+        Optional<Double> averageMenAge = PersonListService.averageAgeByGender(persons, person -> !person.getName().endsWith("a"));
+        System.out.println("Average Men's Age: " + averageMenAge);
+
+        // Example usage for average age of women
+        Optional<Double> averageWomenAge = PersonListService.averageAgeByGender(persons, person -> person.getName().endsWith("a"));
+        System.out.println("Average Women's Age: " + averageWomenAge);
 
         Optional<String> cityWithMostPeople = PersonListService.cityWithMostPeople(persons);
         System.out.println(cityWithMostPeople);
-
 
         System.out.println();
 

@@ -1,6 +1,7 @@
 package pl.kurs.zad4;
 
 import java.util.*;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class PersonListService {
@@ -31,10 +32,13 @@ public class PersonListService {
                 .average()
                 .orElse(0));
     }
-    private static void groupByGender(List<Person> persons){
-        persons.stream()
-                .collect(Collectors.groupingBy(person -> person.getName().endsWith("a")));
 
+    public static Optional<Double> averageAgeByGender(List<Person> persons, Function<Person, Boolean> genderPredicate) {
+        return Optional.of(persons.stream()
+                .filter(genderPredicate::apply)
+                .mapToInt(Person::getAge)
+                .average()
+                .orElse(0));
     }
 
 

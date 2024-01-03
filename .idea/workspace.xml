@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21e4df0d-fe2c-4043-b4e3-26660ee71164" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/kurs/zad2/PeselValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pl/kurs/zad2/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/kurs/zad1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kurs/zad1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/kurs/zad1/MinMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kurs/zad1/MinMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/kurs/zad1/MinMaxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kurs/zad1/MinMaxService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/kurs/zad2/Pesel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kurs/zad2/Pesel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/kurs/zad3/FiveBiggestElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kurs/zad3/FiveBiggestElements.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/kurs/zad3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kurs/zad3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/kurs/zad4/PersonListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kurs/zad4/PersonListService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pl/kurs/zad4/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/kurs/zad4/Runner.java" afterDir="false" />
     </list>
@@ -169,7 +161,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703853851805</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1704238281804</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1704238281804</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1704238362144</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1704238362144</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
